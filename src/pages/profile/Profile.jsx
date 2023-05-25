@@ -35,7 +35,6 @@ const ProfileTitle = styled.span`
 
 const ProfileText = styled.span`
   margin-top: 8px;
-  font-family: "Pretendard";
   text-align: center;
 `;
 const Profile = () => {
