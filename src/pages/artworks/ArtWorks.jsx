@@ -66,7 +66,7 @@ const CategoryButton = styled.button`
 
   color: ${(props) => (props.toggle === "true" ? "#ffffff" : "#c8c8c8")};
   border: none;
-  font-size: 0.825rem;
+  font-size: 1rem;
   font-family: 400;
 
   &:hover {
@@ -93,8 +93,8 @@ const MobileWrapper = styled.div`
   height: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 12px;
-  /* margin-top: 64px; */
+  /* margin-top: 12px; */
+  margin-top: 24px;
 `;
 
 const MobileContainer = styled.div`
