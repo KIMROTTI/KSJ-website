@@ -76,7 +76,7 @@ const MenuWrapper = styled.div`
   flex-direction: column;
   align-items: flex-end;
   justify-content: end;
-  margin-top: 120px;
+  /* margin-top: 120px; */
   /* padding-bottom: 100px; */
 `;
 
