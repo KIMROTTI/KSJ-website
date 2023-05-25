@@ -43,7 +43,7 @@ const MobileBackgroundImage = styled.img`
 
 const MobileWrapper = styled.div`
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   padding: 36px;
@@ -103,7 +103,7 @@ const Home = ({ setIshome }) => {
             src="https://deuffzfddmyq6.cloudfront.net/videos/motel_1.mp4"
             // src={home_video}
             // poster={home_poster}
-            preload="none"
+            // preload="none"
             autoPlay
             loop
             muted
@@ -115,7 +115,7 @@ const Home = ({ setIshome }) => {
         <MobileBackgroundImage
           src="https://deuffzfddmyq6.cloudfront.net/images/i5.jpg"
           // src={home_mobile}
-          loading="lazy"
+          // loading="lazy"
         />
         <MobileWrapper>
           <MobileTitleBox>
