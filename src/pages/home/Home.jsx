@@ -1,9 +1,9 @@
 import { Mobile, Pc } from "device";
 import React, { useEffect } from "react";
 import { styled } from "styled-components";
-import home_video from "assets/videos/home/home_video.mp4";
+// import home_video from "assets/videos/home/home_video.mp4";
 // import home_poster from "assets/images/home/home_poster.webp";
-import home_mobile from "assets/images/home/home_mobile.webp";
+// import home_mobile from "assets/images/home/home_mobile.webp";
 import { Link } from "react-router-dom";
 
 const Wrapper = styled.div`
@@ -76,7 +76,8 @@ const MenuWrapper = styled.div`
   flex-direction: column;
   align-items: flex-end;
   justify-content: end;
-  padding-bottom: 100px;
+  margin-top: 120px;
+  /* padding-bottom: 100px; */
 `;
 
 const MenuLink = styled(Link)`

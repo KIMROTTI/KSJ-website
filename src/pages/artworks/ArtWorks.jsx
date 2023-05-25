@@ -67,7 +67,7 @@ const CategoryButton = styled.button`
   color: ${(props) => (props.toggle === "true" ? "#ffffff" : "#c8c8c8")};
   border: none;
   font-size: 0.825rem;
-  font-family: 300;
+  font-family: 400;
 
   &:hover {
     color: #9e9e9e;
