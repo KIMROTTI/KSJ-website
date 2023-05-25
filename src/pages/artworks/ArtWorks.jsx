@@ -41,7 +41,7 @@ const SubTitleBox = styled.div`
   display: flex;
   align-items: center;
   @media screen and (max-width: 1024px) {
-    width: 212px;
+    width: 240px;
     justify-content: space-between;
   }
 `;
@@ -66,14 +66,14 @@ const CategoryButton = styled.button`
 
   color: ${(props) => (props.toggle === "true" ? "#ffffff" : "#c8c8c8")};
   border: none;
-  font-size: 1rem;
+  font-size: 0.825rem;
   font-family: 400;
 
   &:hover {
     color: #9e9e9e;
   }
   @media screen and (max-width: 1024px) {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     padding: 0;
     &:hover {
       color: #ffffff;
