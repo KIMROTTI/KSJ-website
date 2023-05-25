@@ -41,15 +41,15 @@ const FileVideo = styled.video`
   }
 `;
 
-const MainContentBox = styled.div`
-  width: 100%;
-  height: 400px;
-`;
-const MainVideo = styled.video`
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-`;
+// const MainContentBox = styled.div`
+//   width: 100%;
+//   height: 400px;
+// `;
+// const MainVideo = styled.video`
+//   width: 100%;
+//   height: 100%;
+//   object-fit: cover;
+// `;
 const Illustration = () => {
   return (
     <div>

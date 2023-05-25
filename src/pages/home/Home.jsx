@@ -2,7 +2,7 @@ import { Mobile, Pc } from "device";
 import React, { useEffect } from "react";
 import { styled } from "styled-components";
 import home_video from "assets/videos/home/home_video.mp4";
-import home_poster from "assets/images/home/home_poster.webp";
+// import home_poster from "assets/images/home/home_poster.webp";
 import home_mobile from "assets/images/home/home_mobile.webp";
 import { Link } from "react-router-dom";
 
