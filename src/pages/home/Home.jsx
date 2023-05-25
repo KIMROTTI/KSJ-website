@@ -100,8 +100,8 @@ const Home = ({ setIshome }) => {
       <Pc>
         <Wrapper>
           <BackgroundVideo
-            // src="https://deuffzfddmyq6.cloudfront.net/videos/motel_1.mp4"
-            src={home_video}
+            src="https://deuffzfddmyq6.cloudfront.net/videos/motel_1.mp4"
+            // src={home_video}
             // poster={home_poster}
             preload="none"
             autoPlay
@@ -113,8 +113,8 @@ const Home = ({ setIshome }) => {
       </Pc>
       <Mobile>
         <MobileBackgroundImage
-          // src="https://deuffzfddmyq6.cloudfront.net/images/i5.jpg"
-          src={home_mobile}
+          src="https://deuffzfddmyq6.cloudfront.net/images/i5.jpg"
+          // src={home_mobile}
           loading="lazy"
         />
         <MobileWrapper>
