@@ -93,6 +93,7 @@ const Home = ({ setIshome }) => {
   useEffect(() => {
     setIshome(window.location.pathname);
     return () => setIshome("");
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return (
     <>

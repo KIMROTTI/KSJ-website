@@ -108,7 +108,7 @@ const MobileWrapper = styled.header`
   position: fixed;
   z-index: 99;
   top: 0;
-  background: ${(props) => (props.ishome === "/" ? "transparent" : "#1B1A1A")};
+  background: ${(props) => (props.ishome === "" ? "transparent" : "#1B1A1A")};
 `;
 
 const MobileLogoBox = styled.div`

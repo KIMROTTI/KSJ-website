@@ -1,18 +1,18 @@
 import GlobalStyle from "GlobalStyle";
 import "./App.css";
-import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "pages/home/Home";
 import Header from "components/common/Header";
 import ArtWorks from "pages/artworks/ArtWorks";
 import Profile from "pages/profile/Profile";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 function App() {
   const [ishome, setIshome] = useState("");
 
-  useEffect(() => {
-    console.log(window.location.pathname);
-  }, [ishome]);
+  // useEffect(() => {
+  //   console.log(window.location.pathname);
+  // }, [ishome]);
 
   return (
     <div className="App">
