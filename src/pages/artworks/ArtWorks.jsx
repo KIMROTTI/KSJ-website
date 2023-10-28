@@ -4,7 +4,6 @@ import { styled } from "styled-components";
 import Animation from "./Animation";
 import Illustration from "./Illustration";
 import { Mobile, Pc } from "device";
-import ImageScope from "components/scrope/ImageScope";
 
 const Wrapper = styled.div`
   width: 100%;
