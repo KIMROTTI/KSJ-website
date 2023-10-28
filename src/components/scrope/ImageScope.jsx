@@ -1,5 +1,5 @@
 import React from "react";
-import { styled } from "styled-components";
+import { keyframes, styled } from "styled-components";
 
 const ScopeWrapper = styled.div`
   display: flex;
@@ -15,6 +15,15 @@ const ScopeWrapper = styled.div`
   background-color: rgba(0, 0, 0, 0.8);
 `;
 
+const scope = keyframes`
+from {
+transform: scale(0.8);
+}
+to{
+    transform: scale(1);
+}
+`;
+
 const ImageBox = styled.div`
   display: flex;
   align-items: center;
@@ -27,6 +36,10 @@ const ImageBox = styled.div`
   position: relative;
   /* background-color: #110f0f; */
   overflow: hidden;
+
+  /* transform: scale(1.2);
+  transition: transform 0.5s; */
+  animation: ${scope} 0.5s;
   @media screen and (max-width: 1024px) {
     width: 90%;
   }
