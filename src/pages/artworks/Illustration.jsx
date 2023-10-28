@@ -93,6 +93,11 @@ const Illustration = () => {
                 onClick={() => {
                   setScopeContent(content);
                 }}
+                autoPlay
+                muted
+                playsInline
+                loop
+                preload="metadata"
               />
             </FileBox>
           )}

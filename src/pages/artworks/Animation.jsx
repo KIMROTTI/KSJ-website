@@ -42,6 +42,9 @@ const FileImage = styled.img`
 `;
 
 const FileVideo = styled.video`
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
 `;
@@ -104,6 +107,11 @@ const Animation = () => {
                 onClick={() => {
                   setScopeContent(content);
                 }}
+                autoPlay
+                muted
+                playsInline
+                loop
+                preload="metadata"
               />
             </FileBox>
           )}

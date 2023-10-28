@@ -55,7 +55,14 @@ const ImageScope = ({ setScopeContent, scopeContent }) => {
         {scopeContent?.type === "img" ? (
           <ImageContent src={scopeContent?.url} />
         ) : (
-          <VideoContent src={scopeContent?.url} autoPlay loop muted />
+          <VideoContent
+            src={scopeContent?.url}
+            autoPlay
+            muted
+            playsInline
+            loop
+            preload="metadata"
+          />
         )}
       </ImageBox>
     </ScopeWrapper>

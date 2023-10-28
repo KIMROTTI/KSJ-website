@@ -106,8 +106,10 @@ const Home = ({ setIshome }) => {
             // poster={home_poster}
             // preload="none"
             autoPlay
-            loop
             muted
+            playsInline
+            loop
+            preload="metadata"
           />
           <Container></Container>
         </Wrapper>
