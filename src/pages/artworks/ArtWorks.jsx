@@ -4,6 +4,7 @@ import { styled } from "styled-components";
 import Animation from "./Animation";
 import Illustration from "./Illustration";
 import { Mobile, Pc } from "device";
+import ImageScope from "components/scrope/ImageScope";
 
 const Wrapper = styled.div`
   width: 100%;
@@ -11,6 +12,7 @@ const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   margin-top: 84px;
+  margin-bottom: 24px;
 `;
 
 const Containner = styled.div`
@@ -106,6 +108,7 @@ const MobileContainer = styled.div`
 `;
 const ArtWorks = () => {
   const [category, setCategory] = useState("a");
+
   return (
     <div>
       <Pc>
