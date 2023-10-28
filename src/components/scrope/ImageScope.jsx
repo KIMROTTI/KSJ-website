@@ -17,7 +17,7 @@ const ScopeWrapper = styled.div`
 
 const scope = keyframes`
 from {
-transform: scale(0.8);
+transform: scale(0.1);
 }
 to{
     transform: scale(1);
@@ -39,7 +39,7 @@ const ImageBox = styled.div`
 
   /* transform: scale(1.2);
   transition: transform 0.5s; */
-  animation: ${scope} 0.5s;
+  animation: ${scope} 0.15s;
   @media screen and (max-width: 1024px) {
     width: 90%;
   }
